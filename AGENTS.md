@@ -21,3 +21,17 @@ No application code exists yet — this repo currently holds only the spec and p
 
 - Treat `docs/plans/*.md` as the design record. When implementation decisions diverge from what's written there, update the spec in the same change rather than letting it drift.
 - The spec's open questions section marks unresolved decisions with `[ ]`; don't silently resolve one in code without flagging it to the user.
+
+## Agent skills
+
+### Issue tracker
+
+Local markdown under `docs/plans/<feature-slug>/`, one folder per feature. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Default five canonical role names, unchanged. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: `GLOSSARY.md` + `docs/adr/` at the repo root. See `docs/agents/domain.md`.
